@@ -1,0 +1,15 @@
+<% include partials/header.ejs %>
+  <body>
+    <% include partials/nav.ejs %>
+    <h1>Profile Page:</h1>
+    <p>Welcome to Profile Page of <%= person %>!!!</p>
+    <p><strong>Age: </strong><%= data.age %></p>
+    <p><strong>Job: </strong><%= data.job %></p>
+    <h2>Hobbies: </h2>
+      <ul>
+        <% data.hobbies.forEach(function(item){ %>
+            <li><%= item %></li>
+        <% });%>
+      </ul>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "End to End ToDo app using node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "^2.5.6",
+    "express": "*",
+    "mongodb": "*"
+  },
+  "author": "Ruchi Sinha",
+  "license": "ISC"
+}

@@ -1,0 +1,17 @@
+<% include partials/header.ejs %>
+  <body>
+    <% include partials/nav.ejs %>
+    <h1>Contact Us:</h1>
+    <p>Contact the coolest cats in web!!!</p>
+
+    <form id= 'contact-form' method= 'POST' action= '/contact'>
+      <label for= 'who'>Who do you want to contact?</label><br>
+      <input type= 'text' name= 'who' placeholder="Name"/><br>
+      <label for='department'>Which department?</label><br>
+      <input type='text' name='department' placeholder="Department"/><br>
+      <label for="email">Your Email</label><br>
+      <input type="text" name="email" placeholder="Email"/><br>
+      <input type="submit" value='submit'/>
+    </form>
+  </body>
+</html>
